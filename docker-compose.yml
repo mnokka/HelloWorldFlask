@@ -1,7 +1,8 @@
 version: '3.8'
 
 services:
-  flask-uploader:
+  helloworld:
     build: .
+    image: helloworld:1.0
     ports:
       - "5050:5050"

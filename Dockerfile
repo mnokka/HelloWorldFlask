@@ -9,6 +9,6 @@ RUN pip install -r requirements.txt
 RUN mkdir -p uploads data
 COPY templates /app/templates
 
-EXPOSE 5000
+EXPOSE 5050
 
 CMD ["python", "app.py"]
